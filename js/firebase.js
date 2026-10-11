@@ -46,6 +46,7 @@ export const CATEGORIES = [
   { id: "musiques", label: "Musiques", emoji: "🎵" },
   { id: "sports", label: "Sports", emoji: "⚽" },
   { id: "sportifs", label: "Sportifs", emoji: "🏅" },
+  { id: "sportives", label: "Sportives", emoji: "🏃‍♀️" },
   { id: "voyages", label: "Voyages", emoji: "✈️" },
   { id: "plats", label: "Plats", emoji: "🍽️" },
   { id: "films", label: "Films", emoji: "🎬" }

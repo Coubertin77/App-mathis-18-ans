@@ -470,6 +470,16 @@ input:focus {
   color: var(--bg1);
 }
 
+.tabs-on-card .tab {
+  background: #f3e8ff;
+  color: var(--bg1);
+}
+
+.tabs-on-card .tab.active {
+  background: var(--bg1);
+  color: #fff;
+}
+
 .alert {
   padding: 0.75rem 1rem;
   border-radius: 10px;

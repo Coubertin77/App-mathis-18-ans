@@ -479,7 +479,7 @@ function renderJoin() {
       <label>Code Mathis (laisser vide si tu es invité)</label>
       <input type="password" id="mathis-code" placeholder="Code secret" autocomplete="off">
       <label>Catégorie</label>
-      <div class="tabs" id="cat-tabs">
+      <div class="tabs tabs-on-card" id="cat-tabs">
         ${CATEGORIES.map((c) => `<button class="tab ${c.id === (state.categoryId || "musiques") ? "active" : ""}" data-cat="${c.id}" type="button">${c.emoji} ${c.label}</button>`).join("")}
       </div>
       <button class="btn btn-primary" id="btn-join">C'est parti ! 🎉</button>
